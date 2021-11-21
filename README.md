@@ -11,4 +11,5 @@ a password that does not meet the parameters - will be alerted and login will no
 After entering the email and password, we will press the login button and we will be taken to the profile page, which will show us the information about the user who logged in.
 
 
-<a href="https://www.gstatic.com/devrel-devsite/prod/v83c28b42a9d2de845cf6ea5b33e8c3314f0e1ea60229353829f7578993509959/firebase/images/lockup.png"></a>
+![image](https://user-images.githubusercontent.com/60183349/142748842-1cfe11c6-8678-4081-af63-39994c8502c7.png)
+
