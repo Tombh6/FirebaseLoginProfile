@@ -11,6 +11,6 @@ a password that does not meet the parameters - will be alerted and login will no
 After entering the email and password, we will press the login button and we will be taken to the profile page, which will show us the information about the user who logged in.
 
 
-![image](https://user-images.githubusercontent.com/60183349/142748842-1cfe11c6-8678-4081-af63-39994c8502c7.png) ![image](https://user-images.githubusercontent.com/60183349/142748894-2024eafa-ec91-47a6-9d6e-56422b89b8b5.png)
+![image](https://user-images.githubusercontent.com/60183349/142748842-1cfe11c6-8678-4081-af63-39994c8502c7.png) ![image](https://user-![image](https://user-images.githubusercontent.com/60183349/142748907-cb0a05bc-ad1b-4117-922f-8d915fe08c86.png)
 
 
