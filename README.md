@@ -3,8 +3,8 @@
 
 When we want to run the login system, which uses data from Firebase, we go to the visual code software and open the project.
  This can be done by pulling it from the GIT HUB or if it is stored locally on the computer it can be opened directly within the visual code.
-Once we have opened the project, we will go into the INDEX.HTML file and there we will run the project by pressing the "RUN" key.
-Then, a WEB page will open where all the code written in visual code (HTML, CSS AND JS files) will be found.
+Once we have opened the project, we will go into the "index.html" file and there we will run the project by pressing the "RUN" key.
+Then, a WEB page will open where all the code written in visual code (HTML, CSS and JS files) will be found.
 The login screen can be seen, where login will only be allowed to users who are registered in the Fairbase database.
 Now, we will enter a valid email (which is in the Fairbase database) and a password that is also stored in the database and has unique parameters, if an incorrect email is entered,
 a password that does not meet the parameters - will be alerted and login will not be allowed.
