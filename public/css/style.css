@@ -1,0 +1,123 @@
+body {
+    background: #fff;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+  }
+  .hero{
+    height:100%;
+    width:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(/css/image/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    position:absolute;
+}
+
+.toggle-btn{
+  padding: 10px 30px;
+  background: transparent;
+  border:0;
+  outline:none;
+  position:relative;
+
+}
+  
+  input, button {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+  }
+  
+  .main-div, .loggedin-div {
+    width: 20%;
+    margin: 0px auto;
+    margin-top: 150px;
+    padding: 20px;
+    display: none;
+  }
+  
+  .main-div input {
+    display: block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #fff;
+    padding: 15px;
+    outline: none;
+    width: 100%;
+    margin-bottom: 20px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+  
+  .main-div input:focus {
+    border: 1px solid #777;
+  }
+  
+  .main-div button, .loggedin-div button {
+    background: #5d8ffc;
+    color: #fff;
+    border: 1px solid #5d8ffc;
+    border-radius: 5px;
+    padding: 15px;
+    display: block;
+    width: 100%;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+  }
+
+  .input-field{
+    width:100%;
+    padding: 10px 0;
+    margin:5px 0;
+    border-left:0;
+    border-top:0;
+    border-right:0;
+    border-bottom:1px solid #999;
+    outline:none;
+    background: transparent;
+
+}
+  
+  .main-div button:hover, .loggedin-div button:hover {
+    background: #fff;
+    color: #5d8ffc;
+    border: 1px solid #5d8ffc;
+    cursor: pointer;
+  }
+  
+  span{
+    color:#999;
+    font:bold;
+    font-size:12px; 
+    position: absolute; 
+    background-color: white;
+    top:402px;
+    right: 450px;
+    outline:none;
+    font-family: sans-serif;
+    
+    margin: 0;
+}
+.button-box{
+  width: 100px;
+  margin:35px auto;
+  position: relative;
+  box-shadow: 0 0 20px 9px #24fff41f;
+  border-radius: 30px;
+
+}
+.b{
+  position:absolute;
+  top:388px;
+  right:650px;
+}
+.chekbox{
+  left:-110px;
+  position:relative;
+  
+
+}
+
+
