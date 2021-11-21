@@ -8,9 +8,17 @@ firebase.auth().onAuthStateChanged(function(user) {
       var user = firebase.auth().currentUser;
   
       if(user != null){
-  
+        
+        var name_id=user.name;
         var email_id = user.email;
-        document.getElementById("user_para").innerHTML = "Welcome User : " + email_id;
+        var password_id=user.password;
+        var birthDate_id=user.birthDate;
+        var address_id=user.address;
+        document.getElementById("user_para").innerHTML = "Welcome : " + name_id;
+        document.getElementById("user_para").innerHTML = "Email : " + email_id;
+        document.getElementById("user_para").innerHTML = "Password : " + password_id;
+        document.getElementById("user_para").innerHTML = "Birth Date : " + birthDate_id;
+        document.getElementById("user_para").innerHTML = "Address : " + address_id;
   
       }
   
