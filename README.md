@@ -1,5 +1,5 @@
 # FirebaseLoginProfile
-<h3>Firebase Simple Login is a library that allows authentication using only client-side code. Easily authenticate users via email and password</h3>
+<h3>Firebase Simple Login is a library that allows authentication using only client-side code. Easily authenticate users via email and password.</h3>
 
 When we want to run the login system, which uses data from Firebase, we go to the visual code software and open the project.
  This can be done by pulling it from the GIT HUB or if it is stored locally on the computer it can be opened directly within the visual code.
