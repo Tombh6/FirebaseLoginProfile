@@ -1,3 +1,4 @@
+
 firebase.auth().onAuthStateChanged(function(user) {
     if (user) {
       // User is signed in.
@@ -6,21 +7,41 @@ firebase.auth().onAuthStateChanged(function(user) {
       document.getElementById("login_div").style.display = "none";
   
       var user = firebase.auth().currentUser;
-  
+      
+
+    
       if(user != null){
         
+       //User's details
         var name_id=user.name;
         var email_id = user.email;
         var password_id=user.password;
         var birthDate_id=user.birthDate;
         var address_id=user.address;
-        document.getElementById("user_para").innerHTML = "Welcome : " + name_id;
+         document.getElementById("user_para").innerHTML = "Welcome : " + name_id; 
         document.getElementById("user_para").innerHTML = "Email : " + email_id;
-        document.getElementById("user_para").innerHTML = "Password : " + password_id;
-        document.getElementById("user_para").innerHTML = "Birth Date : " + birthDate_id;
-        document.getElementById("user_para").innerHTML = "Address : " + address_id;
-  
+         document.getElementById("user").innerHTML = "Password : " + password_id;
+        document.getElementById("users").innerHTML = "Birth Date : " + birthDate_id;
+        document.getElementById("users").innerHTML = "Address : " + address_id; 
+       
+        const uid = user.uid;
+
+        /* //User update profile
+        import { getAuth, updateProfile } from "firebase/auth";
+        const auth = getAuth();
+        updateProfile(auth.currentUser, {
+          displayName: "Jane Q. User", address: "",birthDate:"",email:"",password:""
+        }).then(() => {
+          // Profile updated!
+          // ...
+        }).catch((error) => {
+          // An error occurred
+          // ...
+        }); */
+
       }
+      
+
   
     } else {
       // No user is signed in.

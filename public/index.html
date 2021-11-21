@@ -8,20 +8,20 @@
 <div class="hero">
   <div id="login_div" class="main-div">
     <h3 class="toggle-btn">Firebase Web login</h3>
-    <input type="email" class="input-field" placeholder="User Email" id="email_field" />
-    <input type="password" class="input-field" placeholder="Enter Password" id="password_field" />
+    <input type="email" class="input-field" placeholder="User Email" id="email_field" /> <!--Email Area-->
+    <input type="password" class="input-field" placeholder="Enter Password" id="password_field" /><!--Password Area-->
     <input class="chekbox" type="checkbox" onclick="myFunction()"><b class="b">Show Password</b> 
     <button onclick="login();validatePassword(); ValidateEmail();">Login to Account</button>
   </div>
-
+<!-----------Profile Area----------->
   <div id="user_div" class="loggedin-div">
     <h3>Welcome User</h3>
     <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
     <button onclick="logout()">Logout</button>
   </div>
+<!---------------------------------->
 
-
-
+<!----------------Firebase installation------------------>
   <script src="https://www.gstatic.com/firebasejs/4.8.1/firebase.js"></script>
   <script>
     // Initialize Firebase
@@ -39,7 +39,7 @@
   </script>
   <script src="index.js"></script>
 </div>
-
+<!------------------------------------------------------>
 <form name=myForm action='demo_form.asp' onsubmit='return ValidateEmail();'>
   <input type='text' name='email'>
   <input type='submit'>
