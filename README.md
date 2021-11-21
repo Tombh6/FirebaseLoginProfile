@@ -9,3 +9,6 @@ The login screen can be seen, where login will only be allowed to users who are 
 Now, we will enter a valid email (which is in the Fairbase database) and a password that is also stored in the database and has unique parameters, if an incorrect email is entered,
 a password that does not meet the parameters - will be alerted and login will not be allowed.
 After entering the email and password, we will press the login button and we will be taken to the profile page, which will show us the information about the user who logged in.
+
+
+https://www.gstatic.com/devrel-devsite/prod/v83c28b42a9d2de845cf6ea5b33e8c3314f0e1ea60229353829f7578993509959/firebase/images/lockup.png
